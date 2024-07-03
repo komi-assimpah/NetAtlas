@@ -1,0 +1,208 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = NetAtlas_The_True_Project
+build_property.RootNamespace = NetAtlas_The_True_Project
+build_property.ProjectDir = D:\NetAtlas_The_True_Project\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\NetAtlas_The_True_Project
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/NetAtlas_The_True_Project/Views/Administrateur/ListeInternaute.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRldXJcTGlzdGVJbnRlcm5hdXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Administrateur/ListeMembre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRldXJcTGlzdGVNZW1icmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Administrateur/ListePublications.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRldXJcTGlzdGVQdWJsaWNhdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Administrateur/MembreImagesVideo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRldXJcTWVtYnJlSW1hZ2VzVmlkZW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Administrateur/MembreLien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRldXJcTWVtYnJlTGllbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Administrateur/MembreMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRldXJcTWVtYnJlTWVzc2FnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Administrateur/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRldXJcU2lnbkluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Administrateur/Supprimer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRldXJcU3VwcHJpbWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Administrateur/VoirPublication.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRldXJcVm9pclB1YmxpY2F0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Internaute/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJuYXV0ZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Internaute/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJuYXV0ZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Internaute/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJuYXV0ZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Internaute/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJuYXV0ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Internaute/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJuYXV0ZVxTaWduSW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Internaute/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJuYXV0ZVxTaWduVXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Membre/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYnJlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Membre/IndexAmi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYnJlXEluZGV4QW1pLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Membre/LesMembresAJ.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYnJlXExlc01lbWJyZXNBSi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Membre/ListeAmi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYnJlXExpc3RlQW1pLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Membre/ListePublicationImgVid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYnJlXExpc3RlUHVibGljYXRpb25JbWdWaWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Membre/ListePublicationLien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYnJlXExpc3RlUHVibGljYXRpb25MaWVuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Membre/ListePublicationMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYnJlXExpc3RlUHVibGljYXRpb25NZXNzYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Membre/PublicationImVid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYnJlXFB1YmxpY2F0aW9uSW1WaWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Membre/PublicationLien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYnJlXFB1YmxpY2F0aW9uTGllbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Membre/PublicationMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYnJlXFB1YmxpY2F0aW9uTWVzc2FnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Membre/RequeteAmi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYnJlXFJlcXVldGVBbWkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Moderateur/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZXJhdGV1clxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Moderateur/ListeMembre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZXJhdGV1clxMaXN0ZU1lbWJyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Moderateur/MembreImagesVideo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZXJhdGV1clxNZW1icmVJbWFnZXNWaWRlby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Moderateur/MembreLien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZXJhdGV1clxNZW1icmVMaWVuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Moderateur/MembreMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZXJhdGV1clxNZW1icmVNZXNzYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Moderateur/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZXJhdGV1clxTaWduSW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Shared/_LayoutAdminPubliImaVid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pblB1YmxpSW1hVmlkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Shared/_LayoutAdminPubliLien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pblB1YmxpTGllbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Shared/_LayoutAdmin_login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbl9sb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Shared/_LayoutMembre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRNZW1icmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Shared/_LayoutModerateur.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRNb2RlcmF0ZXVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Shared/_LayoutModerateur_login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRNb2RlcmF0ZXVyX2xvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Shared/_LayoutModoPubliImaVid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRNb2RvUHVibGlJbWFWaWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Shared/_LayoutRegister_Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRSZWdpc3Rlcl9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetAtlas_The_True_Project/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-yaail7vfm0

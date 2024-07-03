@@ -1,0 +1,89 @@
+﻿@model IEnumerable<NetAtlas_The_True_Project.Models.Membre>
+
+@{
+    ViewData["Title"] = "Liste des membres";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+
+@*admin*@
+
+<main id="main" class="main">
+    <div class="pagetitle">
+      <h1>Bienvenue !</h1><hr />
+      <p>Liste des membres</p>
+    </div><!-- End Page Title -->
+
+    <section class="section dashboard">
+      <!-- Table with hoverable rows -->
+      <table class="table table-hover">
+        <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nom)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Prenom)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AdresseMail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Password)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Report)
+            </th>
+        </tr>
+        </thead>
+            <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nom)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Prenom)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AdresseMail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Password)
+            </td>
+            <td>
+                    @if (item.Report == null)
+                    {
+                        item.Report = 0;
+                        @Html.DisplayFor(modelItem=>item.Report)
+                    }else{
+                        @Html.DisplayFor(modelItem => item.Report)
+                    }
+            </td>
+            <td>
+                <a asp-action="Reinitialiser" asp-route-id="@item.IdMembre" class="btn btn-primary"><i class="bi bi-arrow-clockwise"></i></a> |
+                  <button class="btn btn-success dropdown-toggle" type="button" id="menu" data-bs-toggle="dropdown" aria-expanded="false">
+                    Voir Ses publications
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="menu">
+                    <li><a class="dropdown-item" asp-action="MembreImagesVideo" asp-route-id="@item.IdMembre">Voir ses images/videos</a></li>
+                    <li><a class="dropdown-item" asp-action="MembreLien" asp-route-id="@item.IdMembre">Voir ses liens</a></li>
+                    <li><a class="dropdown-item" asp-action="MembreMessage" asp-route-id="@item.IdMembre">Voir ses messages</a></li>
+                  </ul> |
+                <a asp-action="ListePublications" asp-route-id="@item.IdMembre" class="btn btn-success"><i class="bi bi-card-list"></i></a> |
+                <a asp-action="Supprimer" asp-route-id="@item.IdMembre" class="btn btn-danger"><i class="bi bi-person-x-fill"></i></a>
+            </td>
+        </tr>
+}
+    </tbody>
+    </table>
+      <!-- End Table with hoverable rows -->
+    </section>
+</main><!-- End #main -->

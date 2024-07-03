@@ -1,0 +1,50 @@
+﻿@model NetAtlas_The_True_Project.Models.Moderateur
+
+@{
+    ViewData["Title"] = "NetAtlas Moderateur - SignIn";
+    Layout = "~/Views/Shared/_LayoutAdmin_login.cshtml";
+}
+
+
+
+
+<!-- header ================================================== -->
+    <header class="s-header">
+	    <div class="header-logo">
+	        <a class="site-logo">
+	            <span class="mark" title="intro">NetAtlas</span>
+	        </a>
+	    </div>
+	</header>
+<!-- end header -->
+
+<div class="main-w3layouts wrapper">
+    <h1>CONNEXION - MODERATEUR</h1>
+    <div class="main-agileinfo">
+        <div class="agileits-top">
+            <form asp-action="SignIn" asp-controller="Moderateur" method="post">
+
+                    <!--el asp-for="UserName" class="control-label"></label>-->
+                    <input asp-for="UserName" class="form-control" style="color:white" placeholder="Nom d'utilisateur" />
+                    <span asp-validation-for="UserName" class="text-danger"></span>
+
+
+                    <!--el asp-for="Password" class="control-label"></label>-->
+                    <input asp-for="Password" class="form-control" style="color:white" placeholder="Mot de passe" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+
+                    <input type="submit" value="SignIn" class="btn btn-primary" />
+
+!           </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

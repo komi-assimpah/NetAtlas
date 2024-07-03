@@ -1,0 +1,85 @@
+﻿@model IEnumerable<NetAtlas_The_True_Project.Models.Membre>
+
+@{
+    ViewData["Title"] = "Les Membres de NetAtlas";
+    Layout = "~/Views/Shared/_LayoutMembre.cshtml";
+    ViewBag.UserNameRecup = @ViewBag.UserNameRecup;
+    ViewBag.amis = @ViewBag.amis;
+}
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<h1 class="text-center text-info">Membres de NetAtlas</h1>
+<table class="table">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.Nom)</th>
+                <th>@Html.DisplayNameFor(model => model.Prenom)</th>
+                <th>@Html.DisplayNameFor(model => model.AdresseMail)</th>
+                <th>@Html.DisplayNameFor(model => model.UserName)</th>
+                <th>Que faire ?</th>
+            </tr>
+        </thead>
+        <tbody>
+        @if (ViewBag.amis.Count == 0)
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Nom)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Prenom)</td>
+                    <td>@Html.DisplayFor(modelItem => item.AdresseMail)</td>
+                    <td>@Html.DisplayFor(modelItem => item.UserName)</td>
+                    <td class="td-actions">
+                        <a asp-action="Inviter" asp-route-id="@item.IdMembre" rel="tooltip" class="btn btn-info btn-sm btn-icon">
+                            <i class="tim-icons icon-single-02"></i>
+                        </a>
+                        <a asp-action="Annuler" asp-route-id="@item.IdMembre" rel="tooltip" class="btn btn-danger btn-sm btn-icon disabled">
+                            <i class="tim-icons icon-simple-remove"></i>
+                        </a>
+                    </td>
+                </tr>
+            }
+            }
+        else
+            {
+                @foreach (var item in Model){
+                
+                    <tr>
+                <td>@Html.DisplayFor(modelItem => item.Nom)</td>
+                <td>@Html.DisplayFor(modelItem => item.Prenom)</td>
+                <td>@Html.DisplayFor(modelItem => item.AdresseMail)</td>
+                <td>@Html.DisplayFor(modelItem => item.UserName)</td>
+                <td class="td-actions">
+                    @*foreach (var ami in ViewBag.ami){*@
+                    @if (ViewBag.amis.Contains(item))
+                            {
+                                <a asp-action="Inviter" asp-route-id="@item.IdMembre" rel="tooltip" class="btn btn-info btn-sm btn-icon disabled">
+                                    <i class="tim-icons icon-single-02"></i>
+                                </a>
+                                <a asp-action="Annuler" asp-route-id="@item.IdMembre" rel="tooltip" class="btn btn-danger btn-sm btn-icon"><i class="tim-icons icon-simple-remove"></i>
+                </a>
+                            }
+                            else
+                            {
+                                <a asp-action="Inviter" asp-route-id="@item.IdMembre" rel="tooltip" class="btn btn-info btn-sm btn-icon">
+                                    <i class="tim-icons icon-single-02"></i>
+                                </a>
+                                <a asp-action="Annuler" asp-route-id="@item.IdMembre" rel="tooltip" class="btn btn-danger btn-sm btn-icon disabled"><i class="tim-icons icon-simple-remove"></i>
+                </a>
+                            }
+                            
+                    @*}*@
+                </td>
+            </tr>
+            }
+                
+            }
+            
+        </tbody>
+    </table>
+    }

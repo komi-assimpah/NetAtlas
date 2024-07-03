@@ -1,0 +1,53 @@
+﻿@model ICollection<NetAtlas_The_True_Project.Models.Message>
+
+
+
+
+
+@{
+    ViewData["Title"] = "Publications messages";
+    Layout = "~/Views/Shared/_LayoutModoPubliImaVid.cshtml";
+}
+
+<br /><br /><br />
+
+
+<section class="section">
+      <div class="row">
+        @foreach(var item in Model){
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-body">
+           
+
+              <!-- Line Chart -->
+              <div id="lineChart" class="echart">
+                  <b>@item.MessageSend</b>
+                  <br /><br />
+                  <center>
+                      <a asp-action="Avertir" asp-route-id="@item.IdRessource" class="btn-danger btn">Avertir</a>
+                  </center>
+              </div>
+              <!-- End Line Chart -->
+            
+            </div>
+          </div>
+        </div>
+        }
+      </div>
+    </section>
+
+
+
+
+@*@foreach(var item in Model){
+    <dl class="row">
+        <dt class = "col-sm-2">
+            Message : 
+        </dt>
+        <dd class = "col-sm-10">
+            <b>@item.MessageSend</b>
+            <a asp-action="Avertir" asp-route-id="@item.IdRessource" class="btn-danger btn">Avertir</a>
+        </dd>
+    </dl>
+}*@

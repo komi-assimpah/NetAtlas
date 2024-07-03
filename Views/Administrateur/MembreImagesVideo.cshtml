@@ -1,0 +1,34 @@
+﻿@model ICollection<NetAtlas_The_True_Project.Models.Image_Video>
+
+
+@{
+    ViewData["Title"] = "Publications images/vidéos";
+    Layout = "~/Views/Shared/_LayoutAdminPubliImaVid.cshtml";
+}
+
+<br /><br /><br />
+
+
+<section class="section">
+      <div class="row">
+        @foreach(var item in Model){
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-body">
+            
+              <h5 class="card-title">Description : @item.Description</h5>
+
+              <!-- Line Chart -->
+              <div id="lineChart" class="echart">
+                  <img src="~/Image/@item.ImageName" width="440px" height="440px">
+                  <br /><br />
+                  <center> <a asp-action="SupprimerPublicationAdmin" asp-route-id="@item.IdRessource" class="btn-danger btn">Supprimer</a></center>
+              </div>
+              <!-- End Line Chart -->
+            
+            </div>
+          </div>
+        </div>
+        }
+      </div>
+    </section>

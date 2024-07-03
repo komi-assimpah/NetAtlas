@@ -1,0 +1,74 @@
+﻿@model NetAtlas_The_True_Project.Models.Image_Video
+@{
+}
+@{
+    ViewData["Title"] = "Publication image/vidéo";
+    Layout = "~/Views/Shared/_LayoutMembre.cshtml";
+    ViewBag.UserNameRecup = @ViewBag.UserNameRecup;
+}
+
+<div class="wrapper">
+    <div class="page-header">
+      <div class="page-header-image"></div>
+      <div class="content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-md-6 offset-lg-0 offset-md-3">
+              <div id="square7" class="square square-7"></div>
+              <div id="square8" class="square square-8"></div>
+              <div class="card card-register">
+                <div class="card-header">
+                  <img class="card-img" src="../assets/img/square1.png" alt="Card image">
+                  <h4 class="card-title text-default">Publication</h4>
+                </div>
+                <div class="card-body">
+                  <form asp-action="PublicationImVid" asp-controller="Membre" method="post" enctype="multipart/form-data" class="form">
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text">
+                          <i class="tim-icons  icon-attach-87"></i>
+                        </div>
+                      </div>
+                      <input asp-for="Description" class="form-control" placeholder="Description">
+                      <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text">
+                          <i class="tim-icons icon-attach-87"></i>
+                        </div>
+                      </div>
+                      <input asp-for="Image_VideoFile" class="form-control" accept="image/png,image/jpeg,video/mp4">
+                      <span asp-validation-for="Image_VideoFile" class="text-danger"></span>
+                    </div>
+                    <div class="card-footer">
+                  <input type="submit" value="Publier" class="btn btn-info btn-round btn-lg">
+                </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="register-bg"></div>
+          <div id="square1" class="square square-1"></div>
+          <div id="square2" class="square square-2"></div>
+          <div id="square3" class="square square-3"></div>
+          <div id="square4" class="square square-4"></div>
+          <div id="square5" class="square square-5"></div>
+          <div id="square6" class="square square-6"></div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="title">NetAtlas  •Copyright 2021-2022</h1>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

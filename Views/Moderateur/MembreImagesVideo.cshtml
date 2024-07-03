@@ -1,0 +1,38 @@
+﻿@model ICollection<NetAtlas_The_True_Project.Models.Image_Video>
+@{
+    ViewData["Title"] = "Publications images/vidéos";
+    Layout = "~/Views/Shared/_LayoutModoPubliImaVid.cshtml";
+}
+
+<br /><br /><br />
+
+<section class="section">
+      <div class="row">
+        @foreach(var item in Model){
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-body">
+            
+              <h5 class="card-title">Description : @item.Description</h5>
+
+              <!-- Line Chart -->
+              <div id="lineChart" class="echart">
+                  <img src="~/Image/@item.ImageName" width="440px" height="440px">
+                  <br /><br />
+                  <center>
+                      @if (item.IsThisReported == isReport.isReport)
+                        {
+                            <button class="btn btn-danger" disabled>Already reported</button>
+                        }else{
+                        <a asp-action="Avertir" asp-route-id="@item.IdRessource" class="btn-danger btn">Avertir</a>
+                        }
+                  </center>
+              </div>
+              <!-- End Line Chart -->
+            
+            </div>
+          </div>
+        </div>
+        }
+      </div>
+    </section>
